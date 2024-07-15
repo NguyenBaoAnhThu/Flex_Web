@@ -1,0 +1,30 @@
+.demo4 a {
+    color: #cea352;
+    background-color: #FAFAFA;
+}
+.wrapperheader{
+    background-color: #353535;
+}
+
+/////
+.wrapper {
+    width: 1290px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    gap: 35px;
+}
+
+
+//
+.navlinkswrapper{
+    margin-left: 40px ;
+}

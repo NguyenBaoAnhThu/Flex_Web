@@ -1,0 +1,10 @@
+.gallery-1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+}
+
+.gallery-1 img {
+    width: 240px;
+    height: auto;
+}
