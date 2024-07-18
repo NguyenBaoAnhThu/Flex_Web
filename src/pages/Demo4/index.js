@@ -31,7 +31,7 @@ function Demo4() {
                     olderPost = "Older Posts"
                     showNewerPosts={false}
                     showOlderPosts={true}
-                    olderPostsLink="/Home/Page/2"
+                    olderPostsLink="/demo=4/Page/2"
                   />
                 </div>
                 <Sidebar />

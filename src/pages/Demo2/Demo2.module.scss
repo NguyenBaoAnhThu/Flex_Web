@@ -46,7 +46,16 @@
     color: #636363;
     line-height: 1.8;
   }
-
+  .entry-summary p:first-child:first-letter {
+    font-size: calc(40px + 0.6vw);
+    line-height: 20px;
+    float: left;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-left: 5px;
+    font-family:PT Serif, Serif, sans-serif;
+    color: #353535;
+}
 .entry-summary p {
     margin-bottom: 30px;
 }

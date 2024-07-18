@@ -27,11 +27,11 @@ function Demo8() {
         <div className={cx("content-container")}>
           <div className={cx("card-post")}>
             <CarouselOverlay
-              title="Vintage Cities  "
+              title="Vintage Cities"
               postDate="15 August 2017"
-              link="https://www.facebook.com/"
+              link="/vintage-cities/"
               tag="TRAVEL"
-              tagLink="https://www.facebook.com/"
+              tagLink="/category/travel/"
               customOverlay={cx(styles.customoverlay)}
               customTitle="custom-title"
             />
@@ -47,16 +47,16 @@ function Demo8() {
                 velit. Nam nec tellus a odio tincidunt auctor a ornare…
               </p>
             </div>
-            <EntryFooter customEntryFooter={cx(styles.customentryft)} />
+            <EntryFooter customEntryFooter={cx(styles.customentryft)} leaveCommentHref="/vintage-cities/" />
           </div>
           {/* ////////////////////// */}
           <div className={cx("card-post")}>
             <CarouselOverlay
-              title="Shoes WithOut You "
+              title="Shoe Without You"
               postDate="15 August 2017"
-              link="https://www.facebook.com/"
-              tag="FASHION "
-              tagLink="https://www.facebook.com/"
+              link="/shoe-without-you/"
+              tag="FASHION"
+              tagLink="/category/fashion/"
               customOverlay={cx(styles.customoverlay)}
               customTitle="custom-title"
             />
@@ -72,16 +72,16 @@ function Demo8() {
                 velit. Nam nec tellus a odio tincidunt auctor a ornare…
               </p>
             </div>
-            <EntryFooter customEntryFooter={cx(styles.customentryft)} />
+            <EntryFooter customEntryFooter={cx(styles.customentryft)} leaveCommentHref="/shoe-without-you/" />
           </div>
           {/* ////////////////////// */}
           <div className={cx("card-post")}>
             <CarouselOverlay
-              title=" Women Enterprenuer "
+              title="Women Enterprenuer"
               postDate="15 August 2017"
-              link="https://www.facebook.com/"
+              link="/women-enterprenuer/"
               tag="BUSINESS"
-              tagLink="https://www.facebook.com/"
+              tagLink="/category/business/"
               customOverlay={cx(styles.customoverlay)}
               customTitle="custom-title"
             />
@@ -97,16 +97,16 @@ function Demo8() {
                 velit. Nam nec tellus a odio tincidunt auctor a ornare…
               </p>
             </div>
-            <EntryFooter customEntryFooter={cx(styles.customentryft)} />
+            <EntryFooter customEntryFooter={cx(styles.customentryft)} leaveCommentHref="/women-enterprenuer/" />
           </div>
           {/* ////////////////////// */}
           <div className={cx("card-post")}>
             <CarouselOverlay
               title="My Winter Diary"
               postDate="14 August 2017"
-              link="https://www.facebook.com/"
+              link="/my-winter-diary/"
               tag="PHOTOGRAPHY"
-              tagLink="https://www.facebook.com/"
+              tagLink="/category/photography/"
               customOverlay={cx(styles.customoverlay)}
               customTitle="custom-title"
             />
@@ -124,16 +124,16 @@ function Demo8() {
                 monitoring global network Medecins du Monde aid protect.…
               </p>
             </div>
-            <EntryFooter customEntryFooter={cx(styles.customentryft)} />
+            <EntryFooter customEntryFooter={cx(styles.customentryft)} leaveCommentHref="/my-winter-diary/" />
           </div>
           {/* ////////////////////// */}
           <div className={cx("card-post")}>
             <CarouselOverlay
-              title="Photographer's Diary "
+              title="Photographer's Diary"
               postDate="13 August 2017"
-              link="https://www.facebook.com/"
+              link="/photographers-diary/"
               tag="PHOTOGRAPHY"
-              tagLink="https://www.facebook.com/"
+              tagLink="/category/photography/"
               customOverlay={cx(styles.customoverlay)}
               customTitle="custom-title"
             />
@@ -149,16 +149,16 @@ function Demo8() {
                 I’m going to focus on the 2-1/2…
               </p>
             </div>
-            <EntryFooter customEntryFooter={cx(styles.customentryft)} />
+            <EntryFooter customEntryFooter={cx(styles.customentryft)} leaveCommentHref="/photographers-diary/"/>
           </div>
           {/* ////////////////////// */}
           <div className={cx("card-post")}>
             <CarouselOverlay
-              title="The cold Weather "
-              postDate="12 August 2017"
-              link="https://www.facebook.com/"
-              tag="TRAVEL"
-              tagLink="https://www.facebook.com/"
+               title="The Cold Weather"
+               link="/the-cold-weather/"
+               postDate="13 August 2017"
+               tag="TRAVEL"
+               tagLink="/category/travel/"
               customOverlay={cx(styles.customoverlay)}
               customTitle="custom-title"
             />
@@ -174,24 +174,19 @@ function Demo8() {
                 velit. Nam nec tellus a odio tincidunt auctor a ornare…
               </p>
             </div>
-            <EntryFooter customEntryFooter={cx(styles.customentryft)} />
+            <EntryFooter customEntryFooter={cx(styles.customentryft)} leaveCommentHref="/the-cold-weather/" />
           </div>
         </div>
         <div className={cx("Overview")}>
           <nav aria-label="Page navigation example">
             <ul className={cx("pagination")}>
-              {/* <li className={cx("page-item")}>
-                <a className={cx("page-link")} href="#" aria-label="Previous">
-                  <span aria-hidden="true">&laquo;</span>
-                </a>
-              </li> */}
               <li className={cx("page-item")}>
-                <a className={cx("page-link")} href="#">
+                <a className={cx("page-link")} href="/demo=8">
                   1
                 </a>
               </li>
               <li className={cx("page-item")}>
-                <a className={cx("page-link")} href="#">
+                <a className={cx("page-link")} href="/demo=8/Page/2">
                   2
                 </a>
               </li>
@@ -199,12 +194,12 @@ function Demo8() {
                 <a className={cx("pre-link")}>...</a>
               </li>
               <li className={cx("page-item")}>
-                <a className={cx("page-link")} href="#">
+                <a className={cx("page-link")} href="/demo=8/Page/7">
                   7
                 </a>
               </li>
               <li className={cx("page-item")}>
-                <a className={cx("button-right")} href="#" aria-label="Next">
+                <a className={cx("button-right")} href="/demo=8/Page/2" aria-label="Next">
                   <span aria-hidden="true">&raquo;</span>
                 </a>
               </li>

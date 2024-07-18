@@ -29,11 +29,11 @@ function Demo7() {
               <img src="https://demo.farost.net/felix/wp-content/uploads/2017/08/fashion-hat-straw-hat-570x422.jpg" />
             </a>
             <CarouselOverlay
-              title="Vintage Cities  "
+              title="Vintage Cities"
               postDate="15 August 2017"
-              link="https://www.facebook.com/"
+              link="/vintage-cities/"
               tag="TRAVEL"
-              tagLink="https://www.facebook.com/"
+              tagLink="/category/travel/"
               customOverlay={cx(styles.customoverlay)}
               customTitle="custom-title"
             />
@@ -52,11 +52,11 @@ function Demo7() {
               <img src="https://demo.farost.net/felix/wp-content/uploads/2017/08/photo-1456689337957-34d689850f36-770x570.jpg" />
             </a>
             <CarouselOverlay
-              title="Shoes WithOut You "
+              title="Shoes without you"
               postDate="15 August 2017"
-              link="https://www.facebook.com/"
-              tag="FASHION "
-              tagLink="https://www.facebook.com/"
+              link="/shoe-without-you/"
+              tag="FASHION"
+              tagLink="/category/fashion/"
               customOverlay={cx(styles.customoverlay)}
               customTitle="custom-title"
             />
@@ -75,11 +75,11 @@ function Demo7() {
               <img src="https://demo.farost.net/felix/wp-content/uploads/2017/08/photo-1427088625471-da8a7193afd3-770x570.jpg" />
             </a>
             <CarouselOverlay
-              title=" Women Enterprenuer "
+              title="Women Enterprenuer"
               postDate="15 August 2017"
-              link="https://www.facebook.com/"
+              link="/women-enterprenuer/"
               tag="BUSINESS"
-              tagLink="https://www.facebook.com/"
+              tagLink="/category/business/"
               customOverlay={cx(styles.customoverlay)}
               customTitle="custom-title"
             />
@@ -98,11 +98,11 @@ function Demo7() {
               <img src="https://demo.farost.net/felix/wp-content/uploads/2017/08/photo-1446064851258-7944734cb1bf-770x570.jpg" />
             </a>
             <CarouselOverlay
-              title="My Winter Diary"
+              title="My winter diary"
               postDate="14 August 2017"
-              link="https://www.facebook.com/"
+              link="/my-winter-diary/"
               tag="PHOTOGRAPHY"
-              tagLink="https://www.facebook.com/"
+              tagLink="/category/photography/"
               customOverlay={cx(styles.customoverlay)}
               customTitle="custom-title"
             />
@@ -122,11 +122,11 @@ function Demo7() {
               <img src="https://demo.farost.net/felix/wp-content/uploads/2017/08/man-hands-photographer-cameras-770x570.jpg" />
             </a>
             <CarouselOverlay
-              title="Photographer's Diary "
+              title="Photograper's diary"
               postDate="13 August 2017"
-              link="https://www.facebook.com/"
+              link="/photographers-diary/"
               tag="PHOTOGRAPHY"
-              tagLink="https://www.facebook.com/"
+              tagLink="/category/photography/"
               customOverlay={cx(styles.customoverlay)}
               customTitle="custom-title"
             />
@@ -145,11 +145,11 @@ function Demo7() {
               <img src="https://demo.farost.net/felix/wp-content/uploads/2017/08/photo-1449614016987-8c215bb90b94-570x422.jpg" />
             </a>
             <CarouselOverlay
-              title="The cold Weather "
+              title="The Cold Weather"
               postDate="12 August 2017"
-              link="https://www.facebook.com/"
+              link="/the-cold-weather/"
               tag="TRAVEL"
-              tagLink="https://www.facebook.com/"
+              tagLink="/category/travel/"
               customOverlay={cx(styles.customoverlay)}
               customTitle="custom-title"
             />
@@ -168,11 +168,11 @@ function Demo7() {
               <img src="https://demo.farost.net/felix/wp-content/uploads/2017/08/photo-1448582649076-3981753123b5-570x422.jpg" />
             </a>
             <CarouselOverlay
-              title="Prefect BackPacking "
+              title="Prefect Backpacking "
               postDate="12 August 2017"
-              link="https://www.facebook.com/"
+              link="/perfect-backpacking/"
               tag="TRAVEL"
-              tagLink="https://www.facebook.com/"
+              tagLink="/category/travel/"
               customOverlay={cx(styles.customoverlay)}
               customTitle="custom-title"
             />
@@ -191,11 +191,11 @@ function Demo7() {
               <img src="https://demo.farost.net/felix/wp-content/uploads/2017/08/sport-white-rolls-skateboard-570x422.jpg" />
             </a>
             <CarouselOverlay
-              title="Back To Drake"
+              title="Back To Drake "
               postDate="11 August 2017"
-              link="https://www.facebook.com/"
+              link="/back-to-drake/"
               tag="BUSINESS"
-              tagLink="https://www.facebook.com/"
+              tagLink="/category/business/  "
               customOverlay={cx(styles.customoverlay)}
               customTitle="custom-title"
             />
@@ -216,9 +216,9 @@ function Demo7() {
             <CarouselOverlay
               title="Working Hands Pray "
               postDate="10 August 2017"
-              link="https://www.facebook.com/"
+              link="/working-hands-pray/"
               tag="BUSINESS"
-              tagLink="https://www.facebook.com/"
+              tagLink="/category/business/"
               customOverlay={cx(styles.customoverlay)}
               customTitle="custom-title"
             />
@@ -236,17 +236,12 @@ function Demo7() {
         <div className={cx("Overview")}>
           <nav aria-label="Page navigation example">
             <ul className={cx("pagination")}>
-              {/* <li className={cx("page-item")}>
-                <a className={cx("page-link")} href="#" aria-label="Previous">
-                  <span aria-hidden="true">&laquo;</span>
-                </a>
-              </li> */}
-              <li className={cx("page-item")}><a className={cx("page-link")} href="#">1</a></li>
-              <li className={cx("page-item")}><a className={cx("page-link")} href="#">2</a></li>
+              <li className={cx("page-item")}><a className={cx("page-link")} href="/demo=7">1</a></li>
+              <li className={cx("page-item")}><a className={cx("page-link")} href="/demo=7/Page/2">2</a></li>
               <li className={cx("page-item")}><a className={cx("pre-link")}>...</a></li>
-              <li className={cx("page-item")}><a className={cx("page-link")} href="#">5</a></li>
+              <li className={cx("page-item")}><a className={cx("page-link")} href="/demo=7/Page/5">5</a></li>
               <li className={cx("page-item")}>
-                <a className={cx("button-right")} href="#" aria-label="Next">
+                <a className={cx("button-right")} href="/demo=7/Page/2" aria-label="Next">
                   <span aria-hidden="true">&raquo;</span>
                 </a>
               </li>

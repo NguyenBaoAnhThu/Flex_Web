@@ -33,9 +33,9 @@ function Demo6() {
               <CarouselOverlay
                 title="Vintage Cities"
                 postDate="15 August 2017"
-                link="https://www.facebook.com/"
+                link="/vintage-cities/"
                 tag="TRAVEL"
-                tagLink="https://www.facebook.com/"
+                tagLink="/category/travel/"
               />
               <p className={cx("item-summary1")}>
                 Proin gravida nibh vel velit auctor aliquet. Aenean
@@ -44,7 +44,7 @@ function Demo6() {
                 nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum
                 velit. Nam nec tellus a odio…{" "}
               </p>
-              <a href="#" className={cx("button-default1")}>
+              <a href="/vintage-cities/" className={cx("button-default1")}>
                 READ MORE
               </a>
             </div>
@@ -58,11 +58,11 @@ function Demo6() {
               style={{ marginRight: "-30px" }}
             >
               <CarouselOverlay
-                title="Shoe without you "
+                title="Shoes without you"
                 postDate="15 August 2017"
-                link="https://www.facebook.com/"
+                link="/shoe-without-you/"
                 tag="FASHION"
-                tagLink="https://www.facebook.com/"
+                tagLink="/category/fashion/"
               />
               <p className={cx("item-summary1")}>
                 Proin gravida nibh vel velit auctor aliquet. Aenean
@@ -71,7 +71,7 @@ function Demo6() {
                 nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum
                 velit. Nam nec tellus a odio…{" "}
               </p>
-              <a href="#" className={cx("button-default1")}>
+              <a href="/shoe-without-you/" className={cx("button-default1")}>
                 READ MORE
               </a>
             </div>
@@ -87,11 +87,11 @@ function Demo6() {
               style={{ marginLeft: "-30px" }}
             >
               <CarouselOverlay
-                title="Woment Enterprenuer"
+                title="Women Enterprenuer"
                 postDate="15 August 2017"
-                link="https://www.facebook.com/"
+                link="/women-enterprenuer/"
                 tag="BUSINESS"
-                tagLink="https://www.facebook.com/"
+                tagLink="/category/business/"
               />
               <p className={cx("item-summary1")}>
                 Proin gravida nibh vel velit auctor aliquet. Aenean
@@ -100,7 +100,7 @@ function Demo6() {
                 nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum
                 velit. Nam nec tellus a odio…{" "}
               </p>
-              <a href="#" className={cx("button-default1")}>
+              <a href="/women-enterprenuer/" className={cx("button-default1")}>
                 READ MORE
               </a>
             </div>
@@ -114,11 +114,11 @@ function Demo6() {
               style={{ marginRight: "-30px" }}
             >
               <CarouselOverlay
-                title="My winter diary "
+                title="My winter diary"
                 postDate="14 August 2017"
-                link="https://www.facebook.com/"
+                link="/my-winter-diary/"
                 tag="PHOTOGRAPHY"
-                tagLink="https://www.facebook.com/"
+                tagLink="/category/photography/"
               />
               <p className={cx("item-summary1")}>
                 Cesar Chavez; free expression; medicine revitalize innovation.
@@ -129,7 +129,7 @@ function Demo6() {
                 making progress. Pride reproductive rights participatory
                 monitoring global network Medecins…
               </p>
-              <a href="#" className={cx("button-default1")}>
+              <a href="/my-winter-diary/" className={cx("button-default1")}>
                 READ MORE
               </a>
             </div>
@@ -145,11 +145,11 @@ function Demo6() {
               style={{ marginLeft: "-30px" }}
             >
               <CarouselOverlay
-                title="Photographer's diary"
+                title="Photograper's diary"
                 postDate="13 August 2017"
-                link="https://www.facebook.com/"
+                link="/photographers-diary/"
                 tag="PHOTOGRAPHY"
-                tagLink="https://www.facebook.com/"
+                tagLink="/category/photography/"
               />
               <p className={cx("item-summary1")}>
                 I was in Dubai to receive an award from HIPA for my
@@ -170,7 +170,7 @@ function Demo6() {
           olderPost = "Older Posts"
           showNewerPosts={false}
           showOlderPosts={true}
-          olderPostsLink="/Home/Page/2"
+          olderPostsLink="/demo=6/Page/2"
         />
       </div>
       <SidebarCustom />

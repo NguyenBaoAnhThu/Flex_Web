@@ -103,50 +103,50 @@ function JazzyHaultersInTrend() {
           <div className={cx("list-posts")}>
             <div className={cx("entry-summary7-pictures")}>
               <div>
-                <a href="/tea-with-sugar/">
-                  <img src="https://demo.farost.net/felix/wp-content/uploads/2017/08/photo-1456615074700-1dc12aa7364d-570x422.jpg" />
+                <a href="/lazy-sunday-morning/">
+                  <img src="https://demo.farost.net/felix/wp-content/uploads/2017/08/photo-1457213344097-6e0cb15024f9-570x422.jpg" />
                 </a>
                 <div className={cx("entry-content")}>
                   <a
-                    href="/tea-with-sugar/"
+                    href="/lazy-sunday-morning/"
                     className={cx("entry-title")}
                   >
-                    Tea With Sugar
+                    Lazy Sunday Morning
                   </a>
                   <a
-                    href="/tea-with-sugar/"
+                    href="/lazy-sunday-morning/"
                     className={cx("entry-post-on")}
                   >
-                    7 August 2017
+                    9 August 2017
                   </a>
                 </div>
               </div>
               <div>
-                <a href="/wild-like-workshop/">
-                  <img src="https://demo.farost.net/felix/wp-content/uploads/2017/08/photo-1455772569729-9a95a88f3e9d-570x422.jpg" />
+                <a href="/beautiful-light/">
+                  <img src="https://demo.farost.net/felix/wp-content/uploads/2017/08/photo-1450280624943-de28ff588a6d-570x422.jpg" />
                 </a>
                 <div className={cx("entry-content")}>
-                  <a href="/wild-like-workshop/" className={cx("entry-title")}>
-                    Wild Like The Workshop
+                  <a href="/beautiful-light/" className={cx("entry-title")}>
+                    Beautiful Light
                   </a>
                   <a
-                    href="/wild-like-workshop/"
+                    href="/beautiful-light/"
                     className={cx("entry-post-on")}
                   >
-                    8 August 2017
+                    4 August 2017
                   </a>
                 </div>
               </div>
               <div>
-                <a href="/my-winter-diary/">
-                  <img src="https://demo.farost.net/felix/wp-content/uploads/2017/08/photo-1446064851258-7944734cb1bf-570x422.jpg" />
+                <a href="/the-breakfast-work/">
+                  <img src="https://demo.farost.net/felix/wp-content/uploads/2017/08/photo-1456962059735-289abeaff21c-570x422.jpg" />
                 </a>
                 <div className={cx("entry-content")}>
-                  <a href="/my-winter-diary/" className={cx("entry-title")}>
-                  My Winter Diary
+                  <a href="/the-breakfast-work/" className={cx("entry-title")}>
+                  The breakfast work
                   </a>
-                  <a href="/my-winter-diary/" className={cx("entry-post-on")}>
-                  14 August 2017
+                  <a href="/the-breakfast-work/" className={cx("entry-post-on")}>
+                  10 August 2017
                   </a>
                 </div>
               </div>

@@ -24,9 +24,8 @@ function Features() {
           <CarouselOverlay
             title="Features"
             postDate="1 August 2017"
-            link="https://www.facebook.com/"
             tag="UNCATEGORIZED"
-            tagLink="https://www.facebook.com/"
+            tagLink="/category/uncategorized/"
             customOverlay={cx(styles.customoverlay)}
           />
           <img src="https://demo.farost.net/felix/wp-content/uploads/2017/08/photo-1457439157612-a1891ff037ff-770x570.jpg" />

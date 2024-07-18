@@ -1,0 +1,90 @@
+.demo8 a {
+    color: #cea352;
+    background-color: #FAFAFA;
+  }
+.customentryft{
+    width: 570px;
+}
+    //////
+    .wrapper{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 100px;
+      flex-direction: column;
+    }
+    .content-container{
+      width: 1170px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      padding-top: 150px;
+      justify-content: center;
+      row-gap: 50px;
+    }
+    .card-post{
+      width: 600px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+  }
+  .card-post img {
+      width: 570px;
+  }
+  .entry-summary1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 570px;
+      font-size: 14px;
+      font-family: PT Serif, Serif, sans-serif;
+      color: #636363;
+      line-height: 1.8;
+  }
+  
+  ///////
+  .wrappernav{
+    width: 1170px;
+    margin-right: 40px;
+  }
+  ///// Content 
+  ////
+  .Overview{
+    padding-top: 100px;
+  }
+  .page-link{
+    border: none;
+    color: #353535;
+    padding: 8px;
+    text-decoration: none;
+    font-family: 'Popins', sans-serif;
+    font-size: 11px; 
+  }
+  .page-link:hover , .button-right:hover{
+    color: #cea352;
+    text-decoration: underline;
+  }
+  .pre-link {
+    border: none;
+    color: #353535;
+    padding: 5px;
+    text-decoration: none;
+    font-family: 'Popins', sans-serif;
+    font-size: 11px; 
+  }
+  .button-right{
+    border: none;
+    color: #353535;
+    padding: 5px;
+    text-decoration: none;
+    font-family: 'Popins', sans-serif;
+    font-size: 13px; 
+  }
+  .customoverlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }

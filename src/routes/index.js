@@ -77,20 +77,93 @@ import WildLikeWorkshop from "pages/Posts/WildLikeTheWorkshop/index";
 import ElevationPhotosInTrend from "pages/Posts/ElevationPhotosInTrend/index";
 import LazySundayMorning from "pages/Posts/LazySundayMorning/index";
 import JazzyHaultersInTrend from "pages/Posts/JazzyHaultersInTrend/index";
+import TheBreakfastWork from "pages/Posts/TheBreakfastWork/index";
+import WordpressTheme from "pages/Posts/WordpressTheme/index";
+import WorkingHandsPray from "pages/Posts/WorkingHandsPray/index";
+import PerfectBackpacking from "pages/Posts/PerfectBackpacking/index";
+import WomenEnterprenuer from "pages/Posts/WomenEnterprenuer/index";
+import ShoeWithoutYou from "pages/Posts/ShoeWithoutYou/index";
+import VintageCities from "pages/Posts/VintageCities/index";
+import Home_Page5 from "pages/Home_Page5/index";
+import Home_Page6 from "pages/Home_Page6/index";
+import Home_Page7 from "pages/Home_Page7/index";
+import Demo2P2 from "pages/Demo2P2/index";
+import Demo2P3 from "pages/Demo2P3/index";
+import Demo2P4 from "pages/Demo2P4/index";
+import Demo3P2 from "pages/Demo3P2/index";
+import Demo3P3 from "pages/Demo3P3/index";
+import Demo3P4 from "pages/Demo3P4/index";
+import Demo4P2 from "pages/Demo4P2/index";
+import Demo4P3 from "pages/Demo4P3/index";
+import Demo4P4 from "pages/Demo4P4/index";
+import Demo4P5 from "pages/Demo4P5/index";
+import Demo4P6 from "pages/Demo4P6/index";
+import Demo4P7 from "pages/Demo4P7/index";
+import Demo5P2 from "pages/Demo5P2/index";
+import Demo5P3 from "pages/Demo5P3/index";
+import Demo5P4 from "pages/Demo5P4/index";
+import Demo5P5 from "pages/Demo5P5/index";
+import Demo5P6 from "pages/Demo5P6/index";
+import Demo5P7 from "pages/Demo5P7/index";
+import Demo6P2 from "pages/Demo6P2/index";
+import Demo6P3 from "pages/Demo6P3/index";
+import Demo6P4 from "pages/Demo6P4/index";
+import Demo6P5 from "pages/Demo6P5/index";
+import Demo6P6 from "pages/Demo6P6/index";
+import Demo6P7 from "pages/Demo6P7/index";
+import Demo6P8 from "pages/Demo6P8/index";
+import Demo7P2 from "pages/Demo7P2/index";
+import Demo7P3 from "pages/Demo7P3/index";
+import Demo7P4 from "pages/Demo7P4/index";
+import Demo7P5 from "pages/Demo7P5/index";
+import Demo8P2 from "pages/Demo8P2/index";
 
 const publicRouters = [
   // không cần đăng nhập vẫn xem được
   { path: "/", component: Home },
   { path: "/Home/Page/2", component: HomePage2 },
-  { path: "/Home/Page/3", component: HomePage3 },
+  { path: "/Home/Page/3", component: HomePage3},
   { path: "/Home/Page/4", component: HomePage4 },
+  { path: "/Home/Page/5", component: Home_Page5 },
+  { path: "/Home/Page/6", component: Home_Page6 },
+  { path: "/Home/Page/7", component: Home_Page7 },
   { path: "/demo=2", component: Demo2, layout: null },
+  { path: "/demo=2/Page/2", component: Demo2P2, layout: null },
+  { path: "/demo=2/Page/3", component: Demo2P3, layout: null },
+  { path: "/demo=2/Page/4", component: Demo2P4, layout: null },
   { path: "/demo=3", component: Demo3, layout: null },
+  { path: "/demo=3/Page/2", component: Demo3P2, layout: null },
+  { path: "/demo=3/Page/3", component: Demo3P3, layout: null },
+  { path: "/demo=3/Page/4", component: Demo3P4, layout: null },
   { path: "/demo=4", component: Demo4, layout: null },
+  { path: "/demo=4/Page/2", component: Demo4P2, layout: null },
+  { path: "/demo=4/Page/3", component: Demo4P3, layout: null },
+  { path: "/demo=4/Page/4", component: Demo4P4, layout: null },
+  { path: "/demo=4/Page/5", component: Demo4P5, layout: null },
+  { path: "/demo=4/Page/6", component: Demo4P6, layout: null },
+  { path: "/demo=4/Page/7", component: Demo4P7, layout: null },
   { path: "/demo=5", component: Demo5, layout: null },
+  { path: "/demo=5/Page/2", component: Demo5P2, layout: null },
+  { path: "/demo=5/Page/3", component: Demo5P3, layout: null },
+  { path: "/demo=5/Page/4", component: Demo5P4, layout: null },
+  { path: "/demo=5/Page/5", component: Demo5P5, layout: null },
+  { path: "/demo=5/Page/6", component: Demo5P6, layout: null },
+  { path: "/demo=5/Page/7", component: Demo5P7, layout: null },
   { path: "/demo=6", component: Demo6, layout: null },
+  { path: "/demo=6/Page/2", component: Demo6P2, layout: null },
+  { path: "/demo=6/Page/3", component: Demo6P3, layout: null },
+  { path: "/demo=6/Page/4", component: Demo6P4, layout: null },
+  { path: "/demo=6/Page/5", component: Demo6P5, layout: null },
+  { path: "/demo=6/Page/6", component: Demo6P6, layout: null },
+  { path: "/demo=6/Page/7", component: Demo6P7, layout: null },
+  { path: "/demo=6/Page/8", component: Demo6P8, layout: null },
   { path: "/demo=7", component: Demo7, layout: null },
+  { path: "/demo=7/Page/2", component: Demo7P2, layout: null },
+  { path: "/demo=7/Page/3", component: Demo7P3, layout: null },
+  { path: "/demo=7/Page/4", component: Demo7P4, layout: null },
+  { path: "/demo=7/Page/5", component: Demo7P5, layout: null },
   { path: "/demo=8", component: Demo8, layout: null },
+  { path: "/demo=8/Page/2", component: Demo8P2, layout: null },
   { path: "/about", component: About, layout: null },
   { path: "/contact", component: Contact, layout: null },
   {
@@ -609,6 +682,64 @@ const publicRouters = [
     headerProps: {
       customHomeClassName: "custom-home-class",
       fashionClassName: "custom-fashion"
+    },
+  }, 
+  {
+    path: "/the-breakfast-work/",
+    component: TheBreakfastWork,
+    hideUnderHeader: true,
+    headerProps: {
+      customHomeClassName: "custom-home-class",
+      fashionClassName: "custom-fashion"
+    },
+  }, 
+  {
+    path: "/wordpress-theme/",
+    component: WordpressTheme,
+    hideUnderHeader: true,
+    headerProps: {
+      customHomeClassName: "custom-home-class",
+    },
+  }, 
+  {
+    path: "/working-hands-pray/",
+    component: WorkingHandsPray,
+    hideUnderHeader: true,
+    headerProps: {
+      customHomeClassName: "custom-home-class",
+    },
+  }, 
+  {
+    path: "/perfect-backpacking/",
+    component: PerfectBackpacking,
+    hideUnderHeader: true,
+    headerProps: {
+      customHomeClassName: "custom-home-class",
+    },
+  }, 
+  {
+    path: "/women-enterprenuer/",
+    component: WomenEnterprenuer,
+    hideUnderHeader: true,
+    headerProps: {
+      customHomeClassName: "custom-home-class",
+    },
+  }, 
+  {
+    path: "/shoe-without-you/",
+    component: ShoeWithoutYou,
+    hideUnderHeader: true,
+    headerProps: {
+      customHomeClassName: "custom-home-class",
+      fashionClassName: "custom-fashion"
+    },
+  }, 
+  {
+    path: "/vintage-cities/",
+    component: VintageCities,
+    hideUnderHeader: true,
+    headerProps: {
+      customHomeClassName: "custom-home-class",
     },
   }, 
   { path: "/postlayout=full", component: PostFullWidth, layout: null },

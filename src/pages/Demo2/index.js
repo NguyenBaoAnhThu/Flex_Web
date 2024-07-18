@@ -57,9 +57,9 @@ function Demo2() {
             <CarouselOverlay
               title="Vintage Cities"
               postDate="15 August 2017"
-              link="https://www.facebook.com/"
+              link="/vintage-cities/"
               tag="TRAVEL"
-              tagLink="https://www.facebook.com/"
+              tagLink="/category/travel/"
             />
             <GalleryComponent images={images} className={cx("gallery-1")} />
             <div className={cx("entry-summary")}>
@@ -81,11 +81,11 @@ function Demo2() {
                 Suspendisse in orci enim. Sed ut imperdiet nisi. Proin
                 condimentum fermentum nunc.
               </p>
-              <a href="#" className={cx("continue-reading")}>
+              <a href="/vintage-cities/" className={cx("continue-reading")}>
                 CONTINUE READING...
               </a>
             </div>
-            <EntryFooter />
+            <EntryFooter leaveCommentHref="/vintage-cities/" />
             <div className={cx("card-container")}>
               <div className={cx("card-portrait")}>
                 <div className={cx("card-post")}>
@@ -95,9 +95,9 @@ function Demo2() {
                   <CarouselOverlay
                     title="Shoes without you"
                     postDate="15 August 2017"
-                    link="https://www.facebook.com/"
+                    link="/shoe-without-you/"
                     tag="FASHION"
-                    tagLink="https://www.facebook.com/"
+                    tagLink="/category/fashion/"
                     customOverlay={cx(styles.customoverlay)}
                     customTitle="custom-title"
                   />
@@ -118,9 +118,9 @@ function Demo2() {
                   <CarouselOverlay
                     title="Women Enterprenuer"
                     postDate="15 August 2017"
-                    link="https://www.facebook.com/"
+                    link="/women-enterprenuer/"
                     tag="BUSINESS"
-                    tagLink="https://www.facebook.com/"
+                    tagLink="/category/business/"
                     customOverlay={cx(styles.customoverlay)}
                     customTitle="custom-title"
                   />
@@ -141,9 +141,9 @@ function Demo2() {
                   <CarouselOverlay
                     title="My winter diary"
                     postDate="14 August 2017"
-                    link="https://www.facebook.com/"
+                    link="/my-winter-diary/"
                     tag="PHOTOGRAPHY"
-                    tagLink="https://www.facebook.com/"
+                    tagLink="/category/photography/"
                     customOverlay={cx(styles.customoverlay)}
                     customTitle="custom-title"
                   />
@@ -166,9 +166,9 @@ function Demo2() {
                   <CarouselOverlay
                     title="Photograper's diary"
                     postDate="13 August 2017"
-                    link="https://www.facebook.com/"
+                    link="/photographers-diary/"
                     tag="PHOTOGRAPHY"
-                    tagLink="https://www.facebook.com/"
+                    tagLink="/category/photography/"
                     customOverlay={cx(styles.customoverlay)}
                     customTitle="custom-title"
                   />
@@ -189,9 +189,9 @@ function Demo2() {
                   <CarouselOverlay
                     title="The Cold Weather"
                     postDate="12 August 2017"
-                    link="https://www.facebook.com/"
+                    link="/the-cold-weather/"
                     tag="TRAVEL"
-                    tagLink="https://www.facebook.com/"
+                    tagLink="/category/travel/"
                     customOverlay={cx(styles.customoverlay)}
                     customTitle="custom-title"
                   />
@@ -212,9 +212,9 @@ function Demo2() {
                   <CarouselOverlay
                     title="Prefect Backpacking "
                     postDate="12 August 2017"
-                    link="https://www.facebook.com/"
+                    link="/perfect-backpacking/"
                     tag="TRAVEL"
-                    tagLink="https://www.facebook.com/"
+                    tagLink="/category/travel/"
                     customOverlay={cx(styles.customoverlay)}
                     customTitle="custom-title"
                   />
@@ -235,9 +235,9 @@ function Demo2() {
                   <CarouselOverlay
                     title="Back To Drake "
                     postDate="11 August 2017"
-                    link="https://www.facebook.com/"
+                    link="/back-to-drake/"
                     tag="BUSINESS"
-                    tagLink="https://www.facebook.com/"
+                    tagLink="/category/business/  "
                     customOverlay={cx(styles.customoverlay)}
                     customTitle="custom-title"
                   />
@@ -258,9 +258,9 @@ function Demo2() {
                   <CarouselOverlay
                     title="Working Hands Pray "
                     postDate="10 August 2017"
-                    link="https://www.facebook.com/"
+                    link="/working-hands-pray/"
                     tag="BUSINESS"
-                    tagLink="https://www.facebook.com/"
+                    tagLink="/category/business/"
                     customOverlay={cx(styles.customoverlay)}
                     customTitle="custom-title"
                   />
@@ -281,9 +281,9 @@ function Demo2() {
                   <CarouselOverlay
                     title="Wordpress Theme "
                     postDate="10 August 2017"
-                    link="https://www.facebook.com/"
+                    link="/wordpress-theme/"
                     tag="BUSINESS"
-                    tagLink="https://www.facebook.com/"
+                    tagLink="/category/business/"
                     customOverlay={cx(styles.customoverlay)}
                     customTitle="custom-title"
                   />
@@ -302,11 +302,11 @@ function Demo2() {
                     <img src="https://demo.farost.net/felix/wp-content/uploads/2017/08/photo-1457213324382-98c478e77e1f-570x422.jpg" />
                   </a>
                   <CarouselOverlay
-                    title="Wordpress Theme "
+                    title="Coldplay Beneath "
                     postDate="10 August 2017"
-                    link="https://www.facebook.com/"
+                    link="/coldplay-beneath/"
                     tag="TRAVEL"
-                    tagLink="https://www.facebook.com/"
+                    tagLink="/category/travel/"
                     customOverlay={cx(styles.customoverlay)}
                     customTitle="custom-title"
                   />
@@ -327,7 +327,7 @@ function Demo2() {
                 olderPost = "Older Posts"
                 showNewerPosts={false}
                 showOlderPosts={true}
-                olderPostsLink="/Home/Page/2"
+                olderPostsLink="/demo=2/Page/2"
               />
           </div>
           <Sidebar className={cx("sidebar")} />

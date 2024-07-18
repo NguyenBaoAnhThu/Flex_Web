@@ -5,7 +5,7 @@ import EntryFooter from "~/components/EntryFooter";
 import CarouselOverlay from "~/components/CarouselOverlay";
 import BlockQuote from "~/components/BlockQuote/index";
 import NavLinks from "~/components/NavLinks/index";
-import { flushSync } from "react-dom";
+
 
 
 const cx = classNames.bind(styles);

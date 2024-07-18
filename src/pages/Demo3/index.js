@@ -57,10 +57,10 @@ function Demo3() {
             <CarouselOverlay
               title="Vintage Cities"
               postDate="15 August 2017"
-              link="https://www.facebook.com/"
+              link="/vintage-cities/"
               tag="TRAVEL"
-              tagLink="https://www.facebook.com/"
-              customOverlay = "custom-overlay"
+              tagLink="/category/travel/"
+              customOverlay="custom-overlay"
             />
             <GalleryComponent images={images} className={cx("gallery-1")} />
             <div className={cx("entry-summary")}>
@@ -82,11 +82,11 @@ function Demo3() {
                 Suspendisse in orci enim. Sed ut imperdiet nisi. Proin
                 condimentum fermentum nunc.
               </p>
-              <a href="#" className={cx("continue-reading")}>
+              <a href="/vintage-cities/" className={cx("continue-reading")}>
                 CONTINUE READING...
               </a>
             </div>
-            <EntryFooter />
+            <EntryFooter leaveCommentHref="/vintage-cities/" />
             <div className={cx("card-container")}>
               <div className={cx("card-portrait")}>
                 <div className={cx("card-post")}>
@@ -97,9 +97,9 @@ function Demo3() {
                     <CarouselOverlay
                       title="Shoes without you"
                       postDate="15 August 2017"
-                      link="https://www.facebook.com/"
+                      link="/shoe-without-you/"
                       tag="FASHION"
-                      tagLink="https://www.facebook.com/"
+                      tagLink="/category/fashion/"
                       customTitle="custom-title"
                       customePostDay="custom-postday"
                     />
@@ -115,13 +115,254 @@ function Demo3() {
                   </div>
                 </div>
                 {/* ////////////////////// */}
+                <div className={cx("card-post")}>
+                  <a href="#">
+                    <img src="https://demo.farost.net/felix/wp-content/uploads/2017/08/photo-1427088625471-da8a7193afd3-570x422.jpg" />
+                  </a>
+                  <div className={cx("card-content")}>
+                    <CarouselOverlay
+                      title="Women Enterprenuer"
+                      postDate="15 August 2017"
+                      link="/women-enterprenuer/"
+                      tag="BUSINESS"
+                      tagLink="/category/business/"
+                      customTitle="custom-title"
+                      customePostDay="custom-postday"
+                    />
+                    <div className={cx("entry-summary1")}>
+                      <p>
+                        Proin gravida nibh vel velit auctor aliquet. Aenean
+                        sollicitudin, lorem quis bibendum auctor, nisi elit
+                        consequat ipsum, nec sagittis sem nibh id elit. Duis sed
+                        odio sit amet nibh vulputate cursus a sit amet mauris.
+                        Morbi accumsan ipsum velit. Nam nec tellus a odio…
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                {/* ////////////////////// */}
+                <div className={cx("card-post")}>
+                  <a href="#">
+                    <img src="https://demo.farost.net/felix/wp-content/uploads/2017/08/photo-1446064851258-7944734cb1bf-770x570.jpg" />
+                  </a>
+                  <div className={cx("card-content")}>
+                    <CarouselOverlay
+                      title="My winter diary"
+                      postDate="14 August 2017"
+                      link="/my-winter-diary/"
+                      tag="PHOTOGRAPHY"
+                      tagLink="/category/photography/"
+                      customTitle="custom-title"
+                      customePostDay="custom-postday"
+                    />
+                    <div className={cx("entry-summary1")}>
+                      <p>
+                        Cesar Chavez; free expression; medicine revitalize
+                        innovation. Safeguards technology health partnership
+                        nonprofit; accelerate. Generosity life-expectancy donate
+                        youth pride Bloomberg inspire breakthroughs opportunity
+                        honesty. Clean water, economic security, agency,
+                        grantees giving, Rosa Parks metrics…
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                {/* ////////////////////// */}
+                <div className={cx("card-post")}>
+                  <a href="#">
+                    <img src="https://demo.farost.net/felix/wp-content/uploads/2017/08/man-hands-photographer-cameras-570x422.jpg" />
+                  </a>
+                  <div className={cx("card-content")}>
+                    <CarouselOverlay
+                      title="Photograper's diary"
+                      postDate="13 August 2017"
+                      link="/photographers-diary/"
+                      tag="PHOTOGRAPHY"
+                      tagLink="/category/photography/"
+                      customTitle="custom-title"
+                      customePostDay="custom-postday"
+                    />
+                    <div className={cx("entry-summary1")}>
+                      <p>
+                        I was in Dubai to receive an award from HIPA for my
+                        contributions to photographic education, and the whole
+                        experience was just really surreal. I’m covering that
+                        part of the trip over on my blog at scottkelby.com, but
+                        here on exposure I’m going to…
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                {/* ////////////////////// */}
+                <div className={cx("card-post")}>
+                  <a href="#">
+                    <img src="https://demo.farost.net/felix/wp-content/uploads/2017/08/photo-1449614016987-8c215bb90b94-570x422.jpg" />
+                  </a>
+                  <div className={cx("card-content")}>
+                    <CarouselOverlay
+                      title="The Cold Weather"
+                      postDate="12 August 2017"
+                      link="/the-cold-weather/"
+                      tag="TRAVEL"
+                      tagLink="/category/travel/"
+                      customTitle="custom-title"
+                      customePostDay="custom-postday"
+                    />
+                    <div className={cx("entry-summary1")}>
+                      <p>
+                        Proin gravida nibh vel velit auctor aliquet. Aenean
+                        sollicitudin, lorem quis bibendum auctor, nisi elit
+                        consequat ipsum, nec sagittis sem nibh id elit. Duis sed
+                        odio sit amet nibh vulputate cursus a sit amet mauris.
+                        Morbi accumsan ipsum velit. Nam nec tellus a odio…
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                {/* ////////////////////// */}
+                <div className={cx("card-post")}>
+                  <a href="#">
+                    <img src="https://demo.farost.net/felix/wp-content/uploads/2017/08/photo-1448582649076-3981753123b5-570x422.jpg" />
+                  </a>
+                  <div className={cx("card-content")}>
+                    <CarouselOverlay
+                      title="Prefect Backpacking "
+                      postDate="12 August 2017"
+                      link="/perfect-backpacking/"
+                      tag="TRAVEL"
+                      tagLink="/category/travel/"
+                      customTitle="custom-title"
+                      customePostDay="custom-postday"
+                    />
+                    <div className={cx("entry-summary1")}>
+                      <p>
+                        Proin gravida nibh vel velit auctor aliquet. Aenean
+                        sollicitudin, lorem quis bibendum auctor, nisi elit
+                        consequat ipsum, nec sagittis sem nibh id elit. Duis sed
+                        odio sit amet nibh vulputate cursus a sit amet mauris.
+                        Morbi accumsan ipsum velit. Nam nec tellus a odio…
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                {/* ////////////////////// */}
+                <div className={cx("card-post")}>
+                  <a href="#">
+                    <img src="https://demo.farost.net/felix/wp-content/uploads/2017/08/sport-white-rolls-skateboard-570x422.jpg" />
+                  </a>
+                  <div className={cx("card-content")}>
+                    <CarouselOverlay
+                      title="Back To Drake "
+                      postDate="11 August 2017"
+                      link="/back-to-drake/"
+                      tag="BUSINESS"
+                      tagLink="/category/business/  "
+                      customTitle="custom-title"
+                      customePostDay="custom-postday"
+                    />
+                    <div className={cx("entry-summary1")}>
+                      <p>
+                        Proin gravida nibh vel velit auctor aliquet. Aenean
+                        sollicitudin, lorem quis bibendum auctor, nisi elit
+                        consequat ipsum, nec sagittis sem nibh id elit. Duis sed
+                        odio sit amet nibh vulputate cursus a sit amet mauris.
+                        Morbi accumsan ipsum velit. Nam nec tellus a odio…
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                {/* ////////////////////// */}
+                <div className={cx("card-post")}>
+                  <a href="#">
+                    <img src="https://demo.farost.net/felix/wp-content/uploads/2017/08/photo-1452037302901-0f181216298e-570x422.jpg" />
+                  </a>
+                  <div className={cx("card-content")}>
+                    <CarouselOverlay
+                      title="Working Hands Pray "
+                      postDate="10 August 2017"
+                      link="/working-hands-pray/"
+                      tag="BUSINESS"
+                      tagLink="/category/business/"
+                      customTitle="custom-title"
+                      customePostDay="custom-postday"
+                    />
+                    <div className={cx("entry-summary1")}>
+                      <p>
+                        Proin gravida nibh vel velit auctor aliquet. Aenean
+                        sollicitudin, lorem quis bibendum auctor, nisi elit
+                        consequat ipsum, nec sagittis sem nibh id elit. Duis sed
+                        odio sit amet nibh vulputate cursus a sit amet mauris.
+                        Morbi accumsan ipsum velit. Nam nec tellus a odio…
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                {/* ////////////////////// */}
+                <div className={cx("card-post")}>
+                  <a href="#">
+                    <img src="https://demo.farost.net/felix/wp-content/uploads/2017/08/95cdfeef-570x422.jpg" />
+                  </a>
+                  <div className={cx("card-content")}>
+                    <CarouselOverlay
+                      title="Wordpress Theme "
+                      postDate="10 August 2017"
+                      link="/wordpress-theme/"
+                      tag="BUSINESS"
+                      tagLink="/category/business/"
+                      customTitle="custom-title"
+                      customePostDay="custom-postday"
+                    />
+                    <div className={cx("entry-summary1")}>
+                      <p>
+                        Proin gravida nibh vel velit auctor aliquet. Aenean
+                        sollicitudin, lorem quis bibendum auctor, nisi elit
+                        consequat ipsum, nec sagittis sem nibh id elit. Duis sed
+                        odio sit amet nibh vulputate cursus a sit amet mauris.
+                        Morbi accumsan ipsum velit. Nam nec tellus a odio…
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                {/* ////////////////////// */}
+                <div
+                  className={cx("card-post")}
+                  style={{ borderBottom: "none" }}
+                >
+                  <a href="#">
+                    <img src="https://demo.farost.net/felix/wp-content/uploads/2017/08/photo-1457213324382-98c478e77e1f-570x422.jpg" />
+                  </a>
+                  <div className={cx("card-content")}>
+                    <CarouselOverlay
+                      title="Coldplay Beneath "
+                      postDate="10 August 2017"
+                      link="/coldplay-beneath/"
+                      tag="TRAVEL"
+                      tagLink="/category/travel/"
+                      customTitle="custom-title"
+                      customePostDay="custom-postday"
+                    />
+                    <div className={cx("entry-summary1")}>
+                      <p>
+                        Cesar Chavez; free expression; medicine revitalize
+                        innovation. Safeguards technology health partnership
+                        nonprofit;  accelerate. Generosity life-expectancy
+                        donate youth pride Bloomberg inspire breakthroughs
+                        opportunity honesty. Clean water, economic security,
+                        agency, grantees giving, Rosa Parks metrics rural making
+                        progress. Pride reproductive rights participatory
+                        monitoring global network…
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                {/* ////////////////////// */}
               </div>
             </div>
             <NavLinks
                 olderPost = "Older Posts"
                 showNewerPosts={false}
                 showOlderPosts={true}
-                olderPostsLink="/Home/Page/2"
+                olderPostsLink="/demo=3/Page/2"
               />
           </div>
           <Sidebar className={cx("sidebar")} />
